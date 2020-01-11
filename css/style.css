@@ -139,26 +139,6 @@ header .name p {
     padding: 30px;
 }
 
-#omnie .welcome {
-    display: none;
-}
-
-#omnie .welcome .active {
-    display: block;
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 20%;
-    background-color: beige;
-    padding: 15px 0;
-    font-family: 'Patrick Hand', cursive;
-    text-align: center;
-    z-index: 9900;
-
-
-}
-
 #projekty {
     position: relative;
     height: 100vh;

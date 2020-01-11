@@ -21,11 +21,3 @@ $('#contact').on('click', function () {
         scrollTop: $('#kontakt').offset().top
     }, 1000)
 })
-
-const foto = document.querySelector('.photo');
-const jan = function () {
-    const welcome = document.querySelector('.welcome');
-    welcome.classList.toggle('active');
-    console.log('ok');
-}
-foto.addEventListener('click', jan);
