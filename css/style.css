@@ -179,3 +179,13 @@ footer a {
 footer a:hover {
   color: black;
 }
+@media (max-width: 760px) {
+  header nav {
+    text-align: center;
+  }
+  header nav a {
+    font-size: 3vh;
+    padding: 1vh 1vh;
+    margin-right: 10px;
+  }
+}
