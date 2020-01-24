@@ -209,6 +209,6 @@ header .card {
     position: absolute;
     left: 0;
     right: 0;
-    margin: 10% auto;
-    width: 40% !important;
+    margin: 1% auto 1% auto;
+    width: 45% !important;
   }
