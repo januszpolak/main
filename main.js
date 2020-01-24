@@ -21,3 +21,9 @@ $('#contact').on('click', function () {
         scrollTop: $('#kontakt').offset().top
     }, 1000)
 })
+
+$('#btn').on('click', function () {
+    $('body, html').animate({
+        scrollTop: $('#omnie').offset().top
+    }, 1000)
+})

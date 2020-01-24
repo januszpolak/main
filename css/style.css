@@ -5,13 +5,11 @@
 }
 
 body {
-  background: linear-gradient(
-    -45deg,
-    #171818,
-    #c0c0c0,
-    rgb(85, 82, 82),
-    rgb(61, 50, 50)
-  );
+  background: linear-gradient(-45deg,
+      #171818,
+      #c0c0c0,
+      rgb(85, 82, 82),
+      rgb(61, 50, 50));
   background-size: 400% 400%;
   animation: gradientBG 15s ease infinite;
 }
@@ -185,13 +183,30 @@ footer a {
 footer a:hover {
   color: black;
 }
+
+header .card {
+  position: absolute;
+  left: 0;
+  top: 15%;
+}
+
 @media (max-width: 760px) {
   header nav {
     text-align: center;
   }
+
   header nav a {
     font-size: 3vh;
     padding: 1vh 1vh;
     margin-right: 10px;
   }
-}
+
+  header .name {
+    display: none;
+  }
+
+  header .card {
+    position: absolute;
+    left: 50%;
+    top: 20%;
+  }
